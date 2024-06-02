@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="New Bus Registration"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel1" min="-2" pref="1395" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" pref="387" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[406, 500]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel3" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                          <Component id="txt_routeNum" min="-2" pref="134" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="92" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_busNo" alignment="0" min="-2" pref="148" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txt_username" min="-2" pref="148" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="199" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="txt_drverName" alignment="0" pref="199" max="32767" attributes="0"/>
+                                                      <Component id="txt_nameConductor" alignment="0" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="txt_DNumber" alignment="0" min="-2" pref="155" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                                                          <Component id="txt_NIC" min="-2" pref="155" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="btn_next1" alignment="0" min="-2" pref="156" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_contactDriver" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="txt_contactConductor" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                          <Component id="btn_next" min="-2" pref="156" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cmb_route" min="-2" pref="880" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="352" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="344" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="334" max="-2" attributes="0"/>
+                          <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="509" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="1275" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="cmb_route" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel3" min="-2" pref="20" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txt_routeNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_busNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_username" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel10" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel12" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jLabel14" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jLabel17" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txt_drverName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_DNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_contactDriver" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jLabel18" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="jLabel19" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txt_nameConductor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_contactConductor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_NIC" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btn_next" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                      <Component id="btn_next1" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="325" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="cmb_route">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="67">
+                <StringItem index="0" value="100-Panadura - Moratuwa - Ratmalana - Mt. Lavinia (Galkissa) - Dehiwala - Wellawatta - Bambalapitiya - Kollupitiya - Galle Face - Fort - Pettah"/>
+                <StringItem index="1" value="101-Moratuwa - Ratmalana - Mt. Lavinia (Galkissa) - Dehiwala - Wellawatta - Bambalapitiya - Kollupitiya - Slave Island - Lake House - Fort - Pettah"/>
+                <StringItem index="2" value="102-Moratuwa - Ratmalana - Mt. Lavinia (Galkissa) - Dehiwala - Wellawatta - Bambalapitiya - Kollupitiya - Galle Face - Fort - Kotahena"/>
+                <StringItem index="3" value="103-Narahenpita - Kanatta Junction - Borella - Punchi Borella - Maradana - Technical Collage Junction - Pettah - Fort"/>
+                <StringItem index="4" value="104-Ja-ela - Wattala - Peliyagoda - New Kelani Brodge - Orugodawatta - Dematagoda - Borella - Kanatta Junction - Bauddhaloka Mawatha - Thummulla - Bambalapitiya"/>
+                <StringItem index="5" value="105-Attidiya Junction - Bekariya Junction - Rathmalana (Maliban Junction) - Dehiwala - Wellawatta - Bambalapitiya - Colpetty - Galle Face - Fort - Kotahena"/>
+                <StringItem index="6" value="107-Elakanda - Wattala - Peliyagoda - Old Kelani Bridge - Sirimavo Bandaranaika Road (Bloemendhal) - Pettah - Fort"/>
+                <StringItem index="7" value="112-Maharagama - Navinna - Delkanda - Nugegoda - Kirillapone - Havelock Town - Dickmans Road - Bambalapitiya - Colpetty - Galle Face - Fort - Kotahena"/>
+                <StringItem index="8" value="113-Fort - Nugegoda"/>
+                <StringItem index="9" value="115-Udahamulla - Embuldeniya Junction - Jubilee Post (Mirihana) - Nugegoda - Kirillapone - Havelock Town - Thimbirigasyaya Junction - Thimbirigasyaya Road - Torrington Avenue - Independence Square - Cinnamon Gardens - Town Hall - Ibbanwala Junction - T.B. Jayah Road (Darley Road) - Gamani Hall Junction - D.R. Wijewardena Road - Lake House - Fort - Pettah"/>
+                <StringItem index="10" value="117-Nugegoda - Old Kesbewa Road - Kattiya Junction - Gamsabha Junction - Pepiliyana Road - Pepiliyana - Bellanthota - Attidiya - Ratmalana"/>
+                <StringItem index="11" value="118-Dehiwala - Karagampitiya - Zoo Road - Kalubowila - Kohuwala - Nugegoda - Jubilee Post - Pitakotte - Beddagana"/>
+                <StringItem index="12" value="119 1-Dehiwala - Karagampitiya - Nedimala - Bellanthota - Bellanvila - Boralesgamuwa - Maharagama"/>
+                <StringItem index="13" value="119 2-Maharagama - Navinna - Udahamulla - Embuldeniya - Mirihana - Nugegoda"/>
+                <StringItem index="14" value="120-Horana - Pokunuwita - Gonapola - Kahatuduwa - Kesbewa - Piliyandala - Boralesgamuwa - Rattanapitiya - Pepiliyana - Kohuwala - Dutugemunu Street - Pamankada - Havlock Town - Thimbirigasyaya Junction - Thummulla - ((Kumaratunga Munidasa Road - Cambridge Place - Public Library - Dharmapala Mawatha){towards Pettah}/(Reid Avenue - Cinnamon Gardens){towards Horana}) - Town Hall - Ibbanwala Junction - T.B. Jayah Road (Darley Road) - Gamani Hall Junction - D.r. Wijewardena Road - Lake House - Fort - Pettah"/>
+                <StringItem index="15" value="121-Wijerama Junction - University of Sri J&apos;pura - Egodawatta - Piriwena Junction"/>
+                <StringItem index="16" value="122-Kataragama - Embilipitiya - Ratnapura - Avissawella - Kosgama - Kalu-aggala - Pahatgama - Meepe - Watareka/Meegoda - Godagama - Homagama - Makumbura - Kottawa - Pannipitiya - Maharagama - Navinna - Delkanda - Nugegoda - Kirillapone - Havlock Town - Thimbirigasyaya Junction - Thummulla - ((Kumaratunga Munidasa Road - Cambridge Place - Public Library - Dharmapala Mawatha){towards Pettah}/(Reid Avenue - Cinnamon Gardens){towards Avissawella}) - Town Hall - Ibbanwala Junction - T.B. Jayah Road (Darley Road) - Gamani Hall Junction - D.r. Wijewardena Road - Lake House - Fort - Pettah"/>
+                <StringItem index="17" value="123-Maharagama - Pannipitiya - Kottawa - Aturugiriya Road - Rukmalgama - Walgama - Old Aturugiriya Junction - Athurugiriya"/>
+                <StringItem index="18" value="124-Maharagama - Pannipitiya - Kottawa - Makumbura - Homagama - Godagama - Watareka/Meegoda - Meepe - Ihala Bope"/>
+                <StringItem index="19" value="125-Ingiriya - Handapangoda - Padukka - Meegoda - Godagama - Homagama - Makumbura - Kottawa - Pannipitiya - Maharagama - Navinna - Delkanda - Nugegoda - Kirillapone - Havlock Town - Thimbirigasyaya Junction - Thummulla - ((Kumaratunga Munidasa Road - Cambridge Place - Public Library - Dharmapala Mawatha){towards Pettah}/(Reid Avenue - Cinnamon Gardens){towards Padukka/Ingiriya}) - Town Hall - Ibbanwala Junction - T.B. Jayah Road (Darley Road) - Gamani Hall Junction - D.r. Wijewardena Road - Lake House - Fort - Pettah"/>
+                <StringItem index="20" value="127-Piliyandala - Kesbewa - Kahatuduwa - Moragahahena"/>
+                <StringItem index="21" value="128-Maharagama - Pannipitiya - Kottawa - Malapalla/Makumbura - Homagama - Uduwana - Temple Junction/Moonamale-watta/Gonapola"/>
+                <StringItem index="22" value="129-Kottwa - Makumbura - Homagama - Pitipana - Moragahahena Road - Moragahahena"/>
+                <StringItem index="23" value="131-Maharagama - Navinna - Delkanda - Nugegoda - Kirillapone - Havlock Town - Park Road - Shalika Grounds - Elvitigala Road - Narahenpita - Kanatta Junction - Borella - Dematagoda - Meethotamulla- Kolonnawa - Wellampitiya"/>
+                <StringItem index="24" value="132-Karagampitiya - Kiribathgoda"/>
+                <StringItem index="25" value="133-Panadura/Moratuwa/Mt. Lavinia - Pettah/Ja-Ela"/>
+                <StringItem index="26" value="134-Angoda - Kotikawatta - Orugodawatta - Kotahena - Pettah - Fort - Galle Face - Kollupitiya - Bambalapitiya - Wellawatta - Dehiwala - Mt. Lavinia (Galkissa)"/>
+                <StringItem index="27" value="135-Kohuwala - Dutugemunu Street - Pamankada - Havlock Town - Thimbirigasyaya Junction - Thimbirigasyaya Road - Narahenpita - Kanatta Junction - Borella - Dematagoda - Orugodawatta - New Kelani Bridge - Peliyagoda - Buyagama Road - Kelaniya"/>
+                <StringItem index="28" value="136-Karagampitiya - Ragama"/>
+                <StringItem index="29" value="138 1-(Homagama - Makumbura)/(Athuruguriya - Walgama - Rukmalgama)/(Mattegoda - Pinehan Junction))- Kottawa - Pannipitiya - Maharagama - Navinna - Delkanda - Nugegoda - Kirillapone - Havelock Town - Thimbirigasyaya Junction - Thummulla - ((Kumaratunga Munidasa Road - Cambridge Place - Public Library - Dharmapala Mawatha){towards Pettah}/(Reid Avenue - Independence Avenue - Albert Crescent - Public Library - Dharmapala Mawatha){towards Homagama}) - Town Hall - Ibbanwala Junction - Slave Island - Lake House - Fort - Pettah"/>
+                <StringItem index="30" value="138 2-Kirillawala - Kadawata - Kiribatgoda - Dalugama - Peliyagoda - New Kelani Bridge - Orugodawatta - Sirimavo Bandaranaike Mawatha (Grandpass) - Sugathadasa Stadium - Sri Sumanatissa Road (Armour Street) - Technical Collage Junction - Pettah - Fort"/>
+                <StringItem index="31" value="139-Kesbewa - Piliyandala - Boralesgamuwa - Rattanapitiya - Pepiliyana - Kohuwala - Kalubowila"/>
+                <StringItem index="32" value="140-Wellampitiya - Kolonnawa Road - Dematagoda - Sri Vajiragnana Road - Maradana Road - Paranawadiya - Norris Canal Road - Town Hall - Dharmapala Mawatha - Kollupitiya"/>
+                <StringItem index="33" value="141-Wellawatta - W.A. Silva Road - Pamankada Road - Kirillapone - Baseline Road - Narahenpita"/>
+                <StringItem index="34" value="143-Hanwella - Ranala - Kaduwela - Pettah"/>
+                <StringItem index="35" value="144-Rajagiriya - Kotte road - Borella - Punchi Borella - Maradana - Technical Collage Junction - Pettah - Fort"/>
+                <StringItem index="36" value="145-Borella - Nawa Rohala (Jayawardhanapura Hospital)"/>
+                <StringItem index="37" value="148-Labugama - Kaluaggala - Hanwella - Ranala - Kaduwela - Pettah"/>
+                <StringItem index="38" value="150-Kelanimulla - Seemamalakaya"/>
+                <StringItem index="39" value="152-Battaramulla - Angoda - Gothatuwa - Pitakotuwa (Pettah)"/>
+                <StringItem index="40" value="154-Kiribathgoda - Paliyagoda - Dematagoda - Borella - Thummulla - Bambalapitiya - Angulana"/>
+                <StringItem index="41" value="155-Mattakkuliya - Galkissa (Mount Lavinia)"/>
+                <StringItem index="42" value="156-Dehiwala - Karagampitiya - Nedimala - Anderson Road Junction - Kalubowila - Kohuwala - Nugegoda"/>
+                <StringItem index="43" value="163-Dehiwala - Battaramulla"/>
+                <StringItem index="44" value="164-Himbutana - Kotikawatte - Wellampitiya - Dematagoda - Borella - Town Hall"/>
+                <StringItem index="45" value="166-Angoda - Slave Island"/>
+                <StringItem index="46" value="167-Dehiwala - Thotalanga"/>
+                <StringItem index="47" value="168-Nugegoda - Pita Kotte - Etul Kotte - Rajagiriya - Ayurweda junction - Borella- Ward Place - Slave Island - Fort - Kotahena"/>
+                <StringItem index="48" value="170-Athurugiriya - Pettah / Malabe - Pettah"/>
+                <StringItem index="49" value="171-Koswatte - Pettah"/>
+                <StringItem index="50" value="173-Thotalanga - Nugegoda"/>
+                <StringItem index="51" value="174-Kottawa - Borella"/>
+                <StringItem index="52" value="175-Kohilawatte - Kollupitiya"/>
+                <StringItem index="53" value="176-Karagampitiya - Hettiyawatte / Nugegoda - Hettiyawatte"/>
+                <StringItem index="54" value="177-Kaduwela - Kollupitiya"/>
+                <StringItem index="55" value="186-Jayawadanagama - Wickramasinghepura - Pelawatta - Battaramulla - Etul Kotte - Etul Kotte - Rajagiriya - Ayurweda junction - Borella"/>
+                <StringItem index="56" value="187-Airport(Katunayake/Awariwatte) - Ja-Ela - Fort"/>
+                <StringItem index="57" value="188-Raddolugama - Seeduwa - Fort"/>
+                <StringItem index="58" value="200-Gampaha - Pettah"/>
+                <StringItem index="59" value="230-Kiribathgoda - Sapugaskanda - Gonawala - Kelaniya - Paliyagoda - Fort"/>
+                <StringItem index="60" value="240-Negombo - Pettah"/>
+                <StringItem index="61" value="255-Kottawa - Pinhena Junction - Siddamulla - Kudamaduwa - Mawiththara - Miriswatta - Piliyandala - Suwarapola - Katubedda - Rathmalana - Mt. Lavinia (Galkissa)"/>
+                <StringItem index="62" value="260-Hendala Junction - Elakanda - Pettah"/>
+                <StringItem index="63" value="261-Mahara Junction - Wattala - Pettah"/>
+                <StringItem index="64" value="262-Ragama - Pettah"/>
+                <StringItem index="65" value="265-Minuwangoda - Pettah"/>
+                <StringItem index="66" value="274-Kiridiwela&#xa0;&#x2013;&#xa0;Pettah"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb_routeActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Driver&apos;s Detail"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Type the route number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_routeNum">
+        </Component>
+        <Component class="javax.swing.JButton" name="btn_next">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="e5" green="9c" red="1c" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Save"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_nextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Full Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Select the route"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Bus Details"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Type the Bus Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Driver License  Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Contact Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Conductor&apos;s Detail"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Full Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel18">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Contact Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel19">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="NIC Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_busNo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_drverName">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_DNumber">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_contactDriver">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_nameConductor">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_contactConductor">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_NIC">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Owner Username"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_username">
+        </Component>
+        <Component class="javax.swing.JButton" name="btn_next1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="e5" green="9c" red="1c" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Back"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_next1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="e5" green="9c" red="1c" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="273" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="78" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="816" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="11" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/router/yoo.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic Medium" size="50" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ROUTER"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
